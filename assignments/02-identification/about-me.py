@@ -1,3 +1,4 @@
+import random
 # First time writing some code?
 # Don't worry, I'll walk you through it.
 #
@@ -8,20 +9,21 @@ print("This gets printed into console")
 
 # Now we need to create some variables.
 # Create a variable called "name" and assign it your own name as a string.
-
+name = "Shang Yi"
 
 # Create a variable called "age" and assign it your own age as an integer.
-
+age = 16
 
 # Create a variable called "coolness" and give it a float.
-
+coolness = 80.0
 
 # Create a variable called "likes_arnold" and give it a boolean.
-
+likes_arnold = random.choice([True, False])
 
 
 
 # Now watch the magic happen.
+# Gimme a shibe
 
 if age > 130 or age < 1:
 	raise IndexError("Your age is too high to be believable!")
@@ -33,7 +35,7 @@ if likes_arnold == True:
 elif coolness > 100.0:
 	cool_index = "Cool Beans"
 elif coolness > 75.0:
-	cool_index = "Hella Rad",
+	cool_index = "Hella Rad"
 elif coolness > 50.0:
 	cool_index = "Pretty Nice"
 elif coolness > 25.0:
